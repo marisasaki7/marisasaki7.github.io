@@ -6,7 +6,7 @@
          
       
         body {
-            background-image: url(./bgimage.jpg);
+            background-image: url(images/bgimage.jpg);
             background-size: 200px 200px;
             background-repeat: repeat;
             min-height: var(--viewport-height);
