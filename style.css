@@ -1,0 +1,144 @@
+
+        html { 
+            font-family: "Sour Gummy";
+            
+         }
+         
+      
+        body {
+            background-image: url(images/bgimage.jpg);
+            background-size: 200px 200px;
+            background-repeat: repeat;
+            min-height: var(--viewport-height);
+            min-width: 320px;
+            display: flex; 
+            word-wrap: break-word; 
+            justify-content: center;
+            align-items: center;
+            
+            }
+
+        .wrapper { 
+            align-items: center; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            overflow: hidden; 
+            position: relative; 
+            z-index: 2;
+            padding: 1.5rem 1.5rem 1.5rem 1.5rem; 
+    
+  
+    
+    
+    
+         }
+
+        h1 { clear: both;
+            
+            margin: 0 auto;
+            font-size: 30px; 
+            text-align: top;
+            padding: 20px;
+            display: block;
+            align-items: center; 
+            position: relative; 
+
+        }
+
+        
+        .container {
+            --alignment: center; 
+            align-content: top; 
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            display: flex; 
+            margin: auto; 
+            max-width: 100%;
+            text-align: var(--alignment);
+            border: black 7px solid;
+            border-radius: 15px;
+           
+            padding: 25px;
+            background-color:white; 
+            box-shadow: -10px 10px
+                
+        }
+
+     
+
+        
+
+        .btn-group .button {
+            
+            margin: auto; 
+            
+            background-color: white;
+            border: black 5px solid;
+            border-radius: 8px;
+            padding: 10px 20px;
+            
+            text-align: center;
+            box-shadow: -5px 5px;
+            display: inline-block;
+            font-size: 20px
+         }
+
+        .button:hover { 
+            background-color: e6e6e6;
+            
+
+
+        }
+
+        .button:active { 
+            
+            box-shadow: 0 5px black; 
+            transform: translateY(2px) translateX(-2px);
+            
+            }
+
+        .button{ font-family: "Sour Gummy";
+
+
+         }
+
+
+
+
+         
+         .maintext { margin: auto; 
+             
+             justify-content: center; 
+             align-items: center;
+    
+          }
+
+
+         p { display: block;
+            width: 100%;
+             font-size: 17px;
+            
+            text-align: center;
+    
+           }
+
+        a:link { color: black
+            
+            
+        }
+
+        a:hover { color: gray
+    
+    
+}
+
+    
+        
+        
+       
+        
+       
+
+    
